@@ -34,8 +34,6 @@ function TaskForm() {
             <input onChange={handleChange} value={title} type="text" className="task-input" placeholder="Add Task...." required />
             <div className="buttons">
                 <button type="submit" className="btn add-task-btn" >{editItem ? 'Edit Task' : 'Add Task'}</button>
-            </div>
-            <div className="buttons">
                 <button onClick={clearList} className="btn clear-btn">Clear</button>
             </div>
         </form>
