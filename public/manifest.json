@@ -1,12 +1,19 @@
 {
-  "short_name": "React App",
+  "short_name": "Task Planner",
   "name": "Coding Ninjas Planner",
+  "description": "A beautiful UI to-do app that will make a task list to make all things done and get your life well planned and organized",
   "manifest_version": 2,
   "browser_action": {
     "default_popup":"index.html",
-    "default_title":"Task Planner Ext"
+    "default_title":"Task Planner Extention"
   },
-  "version": "1.0",
+  "version": "1.1.0",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [
     "storage"
   ]
